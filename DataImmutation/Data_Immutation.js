@@ -1,7 +1,6 @@
 /*
-    Data immutation is creating a new copy of the existing object and making the changes
-    in the new copy leaving existing one unchanged. This functionality can be useful when we do 
-    undo and redo operationstocompare with the previous object(s).
+    Data immutation is updating the changes in the new copy leaving existing copy unchanged. This functionality 
+    can be useful when we do undo and redo operationstocompare with the previous object(s).
 */
 const player = { name: "SB", score: 100 };
 
