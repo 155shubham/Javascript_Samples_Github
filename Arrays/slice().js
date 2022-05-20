@@ -3,6 +3,9 @@
 */
 const fruits = ["Banana", "Apple", "Lemon", "Mango", "Guava"];
 
+let fruits_slice0 = fruits.slice();
+console.log(fruits_slice0); // [ 'Banana', 'Apple', 'Lemon', 'Mango', 'Guava' ]
+
 let fruits_slice1 = fruits.slice(2);
 console.log(fruits_slice1); // [ 'Lemon', 'Mango', 'Guava' ]
 
